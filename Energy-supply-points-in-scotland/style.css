@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: lato;
+}
+p {
+  padding-left: 15px;
+}
+h2,
+h3 {
+  font-size: 20px;
+  padding-left: 15px;
+}
+h3 {
+  font-size: 13px;
+  padding-left: 15px;
+}
+/* Style for the heading in the pop-up window */
+h3 {
+  border-top: 10px black;
+  font-family: Lato, sans-serif;
+}
+
+/* Style for the paragraph in the pop-up window */
+p {
+  font-size: 8px;
+  font-family: Lato, sans-serif;
+}
+
+/* Style for the pop-up window */
+.my-popup .mapboxgl-popup-content {
+  width: 200px;
+  background: rgba(83, 92, 104, 0.5); /* red, green, blue, and alpha */
+  border-top: 50px black;
+  padding: 20px;
+  color: white;
+}
+
+.mapboxgl-ctrl-geocoder {
+  width: 500px !important;
+}
+
+.footer {
+  background: #f1f1f1;
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  bottom: 0px;
+  line-height: 40px;
+}
+
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  margin-right: 60px;
+  overflow: auto;
+  border-radius: 3px;
+  border-style: solid;
+  border-top-width: 15px;
+  border-color: #2d3436;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 40px;
+  width: 100%;
+}
+#features {
+  top: 0;
+  height: 200px;
+  margin-top: 20px;
+  width: 280px;
+}
+#legend {
+  padding: 5px 10px 5px 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 30px;
+  height: 100px;
+  bottom: 80px;
+  width: 170px;
+}
+.legend-key {
+  display: inline;
+  border-radius: 20%;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
